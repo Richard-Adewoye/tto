@@ -42,12 +42,12 @@ export default function Footer() {
           {/* 1. Brand Section (Col 1-4) */}
           <div className="lg:col-span-4 space-y-6">
             <div className="flex items-center gap-2 font-bold text-2xl">
-              <span className="bg-blue-600 text-white px-2 py-1 rounded">Be</span>
-              <span className="text-white">Rich</span>
+              <span className="bg-blue-600 text-white px-2 py-1 rounded">Dr.</span>
+              <span className="text-white">Oyenike Adeleke</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed max-w-sm">
-              Helping businesses become profitable through integrated innovation 
-              and a uniquely collaborative culture. We believe bold steps define the future.
+              Helping create meaningful progress through thoughtful approaches and a culture of shared support. 
+              I believe intentional steps shape a balanced future.
             </p>
             
             {/* Social Icons - Glass Style */}
@@ -87,7 +87,7 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <h4 className="font-bold text-white text-lg mb-6 flex items-center gap-2">
               <span className="w-1.5 h-1.5 bg-blue-600 rounded-full" />
-              Company
+              Platform
             </h4>
             <ul className="space-y-4">
               {companyLinks.map((link) => (
@@ -114,7 +114,7 @@ export default function Footer() {
                 </div>
                 <div className="text-sm">
                   <p className="text-gray-500 text-xs font-bold uppercase tracking-widest mb-1">Email</p>
-                  <p className="text-gray-200">info@berich.com</p>
+                  <p className="text-gray-200">talktooyenike@gmail.com</p>
                 </div>
               </div>
 
@@ -124,7 +124,7 @@ export default function Footer() {
                 </div>
                 <div className="text-sm">
                   <p className="text-gray-500 text-xs font-bold uppercase tracking-widest mb-1">Call Us</p>
-                  <p className="text-gray-200">+1 555 123 4567</p>
+                  <p className="text-gray-200">+234 904 886 5177</p>
                 </div>
               </div>
 
@@ -134,7 +134,7 @@ export default function Footer() {
                 </div>
                 <div className="text-sm">
                   <p className="text-gray-500 text-xs font-bold uppercase tracking-widest mb-1">Location</p>
-                  <p className="text-gray-200">123 Financial Plaza, NY</p>
+                  <p className="text-gray-200">Oyo State, Ibadan</p>
                 </div>
               </div>
             </div>
@@ -144,7 +144,7 @@ export default function Footer() {
         {/* -------------------- Copyright Row -------------------- */}
         <div className="mt-20 pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-6">
           <p className="text-gray-500 text-xs">
-            © 2025 <span className="text-white font-bold">Be Rich</span> Consulting Group. All rights reserved.
+            © 2025 <span className="text-white font-bold">Talk To Oyenike</span> All rights reserved.
           </p>
 
           <div className="flex items-center gap-8">

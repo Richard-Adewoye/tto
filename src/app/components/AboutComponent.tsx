@@ -20,9 +20,9 @@ export default function DetailedAboutSection() {
   };
 
   const stats = [
-    { value: "95%", label: "Customer satisfaction" },
-    { value: "10+", label: "Years of innovation" },
-    { value: "$10m", label: "Financial efficiency" },
+    { value: " ", label: "Enriched Clients" },
+    { value: " ", label: "Bespoke Methods of Growth" },
+    { value: " ", label: "Problem Solving" },
   ];
 
   return (
@@ -45,15 +45,14 @@ export default function DetailedAboutSection() {
               <motion.div variants={itemVariants} className="space-y-4">
                 <div className="flex items-center gap-2">
                   <div className="w-4 h-4 bg-blue-600 rounded-sm rotate-45" />
-                  <span className="text-blue-600 font-bold text-xs uppercase tracking-widest">About Our Firm</span>
+                  <span className="text-blue-600 font-bold text-xs uppercase tracking-widest">What I do</span>
                 </div>
                 <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900 leading-tight">
-                  Driving excellence with <span className="text-blue-600 text-shadow-glow">tailored expertise.</span>
+                  Encouraging growth <span className="text-blue-600 text-shadow-glow">through thoughtful guidance.</span>
                 </h2>
                 <p className="text-slate-500 leading-relaxed text-sm max-w-lg">
-                  At our firm, we deliver solutions that empower businesses to thrive. 
-                  With years of experience across industries, our team is committed 
-                  to driving growth and operational excellence through bold steps.
+                  I provide support that helps organizations flourish. With experience across diverse settings,
+                  and guide growth and foster thoughtful progress through intentional steps.
                 </p>
               </motion.div>
 
@@ -63,7 +62,7 @@ export default function DetailedAboutSection() {
                   Get Started <ArrowUpRight size={16} className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
                 </button>
                 <button className="bg-white border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-4 rounded-full font-bold text-xs transition-all">
-                  Free Trial
+                  Reach out
                 </button>
               </motion.div>
 
@@ -96,8 +95,8 @@ export default function DetailedAboutSection() {
                 className="absolute -top-4 -right-4 z-20 bg-blue-600 p-4 rounded-2xl shadow-xl"
               >
                 <div className="text-white text-center">
-                  <div className="text-2xl font-bold leading-none">15+</div>
-                  <div className="text-[8px] uppercase font-black tracking-widest">Awards</div>
+                  <div className="text-2xl font-bold leading-none"></div>
+                  <div className="text-[8px] uppercase font-black tracking-widest"></div>
                 </div>
               </motion.div>
 

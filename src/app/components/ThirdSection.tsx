@@ -7,14 +7,14 @@ import { ChevronRight, ChevronUp, ChevronDown, ArrowUpRight, Landmark, Briefcase
 const services = [
   {
     id: "01",
-    title: "Financial Services",
+    title: "Mental Health Services",
     icon: <Landmark size={20} />,
-    description: "We help financial institutions, from banking and insurance to wealth management and securities distribution, manage risks and serve customers.",
+    description: "I support people and institutions, from small practices to larger care networks, in managing complexities and fostering growth.",
     features: [
-      "Banking Risk & Resilience",
-      "Corporate & Investment Banking",
-      "Financial Data, Infrastructure & Technology",
-      "Insurance"
+      "Emotional Resilience",
+      "Structured Support",
+      "Organized Care",
+      "Protective Guidance"
     ],
     image: "https://images.unsplash.com/photo-1600880212340-02d956553908?q=80&w=1000"
   },
@@ -40,7 +40,7 @@ export default function ThirdSection() {
             <div className="absolute inset-0 bg-slate-900 rounded-bl-xl" />
             <div className="absolute top-0 right-0 w-1/2 h-1/2 bg-blue-600 rounded-tr-lg" />
           </div>
-          <h2 className="text-4xl font-bold text-slate-900">Our Services</h2>
+          <h2 className="text-4xl font-bold text-slate-900">Guided Support options</h2>
         </motion.div>
 
         {/* Main Services Card */}

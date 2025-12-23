@@ -27,8 +27,8 @@ const Navbar = () => {
           
           {/* Brand/Logo */}
           <div className="flex items-center gap-2 ml-4">
-             <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-sm shadow-lg shadow-blue-500/20">B</div>
-             <span className="font-extrabold text-white tracking-tight hidden md:block">Be Rich</span>
+             <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-sm shadow-lg shadow-blue-500/20">Dr.</div>
+             <span className="font-extrabold text-white tracking-tight hidden md:block">Oyenike Adeleke</span>
           </div>
 
           {/* Middle: Nav Links */}

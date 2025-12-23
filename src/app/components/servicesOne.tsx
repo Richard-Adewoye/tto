@@ -6,12 +6,11 @@ import { Check, ArrowUpRight } from 'lucide-react';
 import { motion, easeOut } from 'framer-motion';
 
 const features = [
-  "Measurable proven results",
-  "Innovative real solutions",
-  "Customized business strategies",
-  "Reliable expert guidance",
-  "Multi-industry expertise",
-  "Support for long-term"
+  "Proven results",
+  "Innovative solutions",
+  "Customized strategies",
+  "Expert guidance",
+  "Long-term Support"
 ];
 
 export default function AboutSection() {
@@ -76,16 +75,16 @@ export default function AboutSection() {
             <motion.div variants={itemVariants} className="space-y-4">
               <div className="flex items-center gap-2">
                 <div className="w-4 h-4 bg-blue-500 rounded-sm rotate-45" />
-                <span className="text-blue-400 font-bold text-xs uppercase tracking-widest">About Our Expertise</span>
+                <span className="text-blue-400 font-bold text-xs uppercase tracking-widest">Expertise</span>
               </div>
               <h2 className="text-3xl md:text-5xl font-extrabold text-white leading-tight">
-                Unlock our expertise to drive <span className="text-blue-500 text-shadow-glow">success across industries.</span>
+                Leveraging expertise to support <span className="text-blue-500 text-shadow-glow">growth and meaningful outcomes.</span>
               </h2>
             </motion.div>
             
             <motion.p variants={itemVariants} className="text-blue-100/60 leading-relaxed text-sm">
-              Leverage our deep industry knowledge and innovative strategies to accelerate your business growth. 
-              Our tailored solutions ensure success across diverse sectors by addressing your unique challenges.
+              Bringing insight and intentional approaches to guide growth.
+               I tailor support to meet unique needs across different environments.
             </motion.p>
 
             {/* Feature Grid (Styled like SecondSection Lists) */}
@@ -109,7 +108,7 @@ export default function AboutSection() {
               whileHover={{ x: 5 }}
               className="mt-6 bg-white text-[#050a1f] px-8 py-4 rounded-full font-bold text-xs flex items-center gap-3 hover:bg-blue-500 hover:text-white transition-all group"
             >
-              Learn More About Us <ArrowUpRight size={16} className="group-hover:translate-x-1 transition-transform" />
+              Learn More<ArrowUpRight size={16} className="group-hover:translate-x-1 transition-transform" />
             </motion.button>
           </div>
         </motion.div>

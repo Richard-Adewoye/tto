@@ -9,22 +9,22 @@ const slides = [
     id: 0,
     number: "01",
     image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=2000",
-    title: "We help businesses become profitable",
-    desc: "Financial services companies are looking for ways to create newer, more customized products."
+    title: "Guiding towards mental wellbeing with understanding and patience",
+    desc: "Creating personalized paths to mental wellbeing with care and understanding."
   },
   {
     id: 1,
     number: "02",
     image: "https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=2000",
-    title: "Strategic planning for future growth",
-    desc: "Unlock new revenue streams and optimize your operations with our expert financial consulting."
+    title: "Developing mindful strategies for future wellbeing.",
+    desc: "Unlock new pathways to mental wellbeing and strengthen daily routines with thoughtful guidance."
   },
   {
     id: 2,
     number: "03",
     image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2000",
-    title: "Maximize your market potential",
-    desc: "Identify key opportunities in emerging markets and stay ahead of the global competition."
+    title: "Empowering the growth of mindful, sustainable wellbeing.",
+    desc: "Spotting promising areas and nurturing growth with clarity and patience."
   }
 ];
 
@@ -42,17 +42,17 @@ export default function Hero() {
   return (
     <div className="relative min-h-screen font-sans selection:bg-blue-500 selection:text-white">
       {/* 1. Top Header Info */}
-      <div className="fixed top-0 left-0 w-full z-[110] bg-[#050a1f] py-2.5 px-6 flex justify-between items-center text-[11px] font-medium text-blue-100/70 border-b border-white/5">
+      <div className="fixed top-0 left-0 w-full z-[80] bg-[#050a1f] py-2.5 px-6 flex justify-between items-center text-[11px] font-medium text-blue-100/70 border-b border-white/5">
         <div className="flex items-center gap-4">
           <span className="flex items-center gap-2 hover:text-white transition-colors cursor-pointer group">
             <Phone size={13} className="text-blue-500 group-hover:text-blue-400" />
-            <span className="tracking-wide">Call Us: (210) 123-451 (Sun - Thursday)</span>
+            <span className="tracking-wide">Call: 0904 886 5177 </span>
           </span>
         </div>
         <div className="flex items-center gap-6">
           <div className="hidden md:flex items-center gap-2 hover:text-white transition-colors cursor-pointer group">
             <MapPin size={13} className="text-blue-500 group-hover:text-blue-400" />
-            <span className="tracking-wide">380 ST Kilda Road, Australia</span>
+            <span className="tracking-wide">Oyo State, Ibadan</span>
           </div>
           <div className="flex items-center gap-4">
             <div className="h-3 w-[1px] bg-white/10 hidden sm:block" />
@@ -149,7 +149,7 @@ export default function Hero() {
 <div className="relative z-30 container mx-auto px-6 -mt-24">
   <div className="relative group">
     {/* Animated glow effect that follows the card */}
-    <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-[2.5rem] blur opacity-25 group-hover:opacity-40 transition duration-1000"></div>
+    <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-blue-800 rounded-[2.5rem] blur opacity-25 group-hover:opacity-40 transition duration-1000"></div>
     
     <div className="relative bg-white/95 backdrop-blur-xl rounded-[2.5rem] p-8 md:p-12 shadow-2xl border border-white/20 overflow-hidden">
       
@@ -164,26 +164,26 @@ export default function Hero() {
             <span className="text-blue-600 font-bold text-xs uppercase tracking-[0.2em]">Efficiency First</span>
           </div>
           <h2 className="text-3xl md:text-4xl font-black text-slate-900 leading-tight">
-            Full financial visibility <br /> 
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">
-              all in one place
+            Offering complete visibility through  <br /> 
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-800">
+              a single, trusted space.
             </span>
           </h2>
           <p className="mt-4 text-slate-500 font-medium leading-relaxed max-w-sm">
-            Get interest on your money, personalised budgeting and much more features.
+            Nurturing balance through mindful structure and supportive features.
           </p>
         </div>
 
         {/* Right Side: Featured Logotypes */}
         <div className="w-full lg:w-auto flex flex-col items-center lg:items-end gap-6 bg-slate-50/50 p-6 rounded-3xl border border-slate-100">
           <span className="text-[10px] uppercase tracking-[0.3em] text-slate-400 font-black">
-            Global Recognition
+           Built on Care & Integrity
           </span>
           <div className="flex flex-wrap justify-center gap-8 items-center grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700">
              {/* Replace these with actual SVGs if possible */}
-             <div className="text-xl font-black tracking-tighter text-slate-800">FORBES</div>
-             <div className="text-xl font-serif italic font-bold text-slate-800 text-2xl">Fortune</div>
-             <div className="text-xl font-bold tracking-tight text-slate-800 underline underline-offset-4">NEWS</div>
+             <div className="text-xl font-black tracking-tighter text-slate-800">Confidential</div>
+             <div className="text-xl font-serif italic font-bold text-slate-800 text-2xl">Secure</div>
+             <div className="text-xl font-bold tracking-tight text-slate-800 underline underline-offset-4">Research-informed</div>
           </div>
         </div>
       </div>
@@ -191,7 +191,7 @@ export default function Hero() {
       {/* Bottom Row: Partner Ecosystem */}
       <div className="relative pt-8 border-t border-slate-100">
         <div className="flex flex-wrap justify-between items-center gap-6">
-          {["TALK", "M.", "DOLORE", "CONSULT", "Financial Advisors"].map((partner, i) => (
+          {[" ", " ", " ", " ", " "].map((partner, i) => (
             <span 
               key={i} 
               className="text-sm font-bold tracking-widest text-slate-400 hover:text-blue-600 transition-colors cursor-default"
@@ -208,7 +208,7 @@ export default function Hero() {
       </div>
     </div>
   </div>
-  </div>
+</div>
     </div>
   );
 }

@@ -19,10 +19,10 @@ export default function SecondSection() {
   };
 
   const stats = [
-    { value: "25", label: "Years in the industry" },
-    { value: "2402+", label: "Satisfied customers" },
-    { value: "2602", label: "Completed projects" },
-    { value: "22k+", label: "Built area" },
+    { value: " ", label: "Understanding built over time" },
+    { value: " ", label: "Satisfied clients" },
+    { value: " ", label: "Powerful stories" },
+    { value: " ", label: "Rejuvenated people" },
   ];
 
   return (
@@ -55,8 +55,8 @@ export default function SecondSection() {
               className="absolute -top-4 -left-4 z-20 bg-blue-600 p-3 rounded-xl shadow-2xl"
             >
               <div className="text-white text-center">
-                <div className="text-2xl font-bold leading-none">12+</div>
-                <div className="text-[8px] uppercase font-black tracking-tighter">Experiences</div>
+                <div className="text-2xl font-bold leading-none"></div>
+                <div className="text-[8px] uppercase font-black tracking-tighter"></div>
               </div>
             </motion.div>
 
@@ -88,21 +88,20 @@ export default function SecondSection() {
             <motion.div variants={itemVariants} className="space-y-3">
               <div className="flex items-center gap-2">
                 <div className="w-4 h-4 bg-blue-500 rounded-sm rotate-45" />
-                <span className="text-blue-400 font-bold text-xs uppercase tracking-widest">About Our Vision</span>
+                <span className="text-blue-400 font-bold text-xs uppercase tracking-widest">Vision</span>
               </div>
               <h2 className="text-3xl md:text-5xl font-extrabold text-white leading-tight">
-                Helping fast moving innovators <span className="text-blue-500 text-shadow-glow">scale with purpose.</span>
+                Guiding purposeful growth <span className="text-blue-500 text-shadow-glow">with care and clarity.</span>
               </h2>
             </motion.div>
             
             <motion.p variants={itemVariants} className="text-blue-100/60 leading-relaxed text-sm max-w-xl">
-              We believe that bold steps define the future. That the ambition to 
-              lead requires the courage to adapt. Our integrated innovation approach 
-              ensures your business stays ahead of the curve.
+              Moving ahead with purpose, staying open to change, 
+              and supporting progress through integrated, considered ways of working.
             </motion.p>
 
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
-              {["An insurgent mindset", "Integrated innovation", "Collaborative culture"].map((item, idx) => (
+              {["Mindful Growth", "Balanced Progress", "Intentional Change"].map((item, idx) => (
                 <motion.li 
                   key={idx} 
                   variants={itemVariants}
@@ -119,7 +118,7 @@ export default function SecondSection() {
               whileHover={{ x: 5 }}
               className="mt-4 bg-white text-[#050a1f] px-7 py-3 rounded-full font-bold text-xs flex items-center gap-3 hover:bg-blue-500 hover:text-white transition-all group"
             >
-              View Project <ArrowUpRight size={16} className="group-hover:translate-x-1 transition-transform" />
+              Learn More <ArrowUpRight size={16} className="group-hover:translate-x-1 transition-transform" />
             </motion.button>
           </div>
         </motion.div>

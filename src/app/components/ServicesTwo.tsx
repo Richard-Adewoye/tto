@@ -6,20 +6,20 @@ import { motion, easeOut } from 'framer-motion';
 
 const milestones = [
   {
-    title: "Technology Solutions (2008)",
-    description: "Founded with a vision to transform businesses, we started our journey. Our first client project set the stage for future successes.",
+    title: "Individual Therapy",
+    description: "One-on-one sessions to explore thoughts, emotions, and coping strategies.",
     icon: <Lightbulb size={20} />,
     isActive: true,
   },
   {
-    title: "Financial Consulting",
-    description: "Expert guidance to optimize your financial performance through innovative strategies and market analysis.",
+    title: "Group Support",
+    description: "Facilitated sessions providing connection, shared experience, and guidance.",
     icon: <Briefcase size={20} />,
     isActive: false,
   },
   {
-    title: "Strategic Growth",
-    description: "Reaching new heights by establishing a presence in international markets and diverse industries.",
+    title: "Wellness Coaching",
+    description: "Personalized guidance to develop healthy routines, resilience, and balanced living.",
     icon: <Target size={20} />,
     isActive: false,
   },
@@ -58,12 +58,12 @@ export default function MilestonesSection() {
               <span className="text-blue-600 font-bold text-xs uppercase tracking-widest">Milestones</span>
             </div>
             <h2 className="text-3xl md:text-5xl font-extrabold text-slate-900 leading-tight max-w-xl">
-              Our journey: key milestones <span className="text-blue-600">and achievements</span>
+              So Far: What has been<span className="text-blue-600"> accomplished</span>
             </h2>
           </motion.div>
           
           <motion.p variants={itemVariants} className="text-slate-500 max-w-md text-sm leading-relaxed">
-            Discover the significant milestones that have shaped our firm. Each achievement reflects our commitment to excellence and growth.
+            Discover the significant milestones that have shaped how we work. Each one reflecting commitment to excellence and growth.
           </motion.p>
         </motion.div>
 

@@ -7,26 +7,26 @@ const contactInfo = [
   {
     icon: <MapPin className="w-6 h-6 text-blue-600" />,
     label: "LOCATION",
-    title: "Visit Us At",
-    lines: ["60th Street, Los Angeles,", "3rd Street, San Andreas."],
+    title: "Visit At",
+    lines: ["Oyo State, Ibadan,", "Nigeria."],
   },
   {
     icon: <PhoneCall className="w-6 h-6 text-blue-600" />,
     label: "24/7 SERVICE",
-    title: "Call Us On",
-    lines: ["Tel : +01-234-546745", "Mob : +01-723-877413"],
+    title: "You Can Call on",
+    lines: ["Tel : +2349048865177", "Whatsapp : +2349048865177"],
   },
   {
     icon: <Mail className="w-6 h-6 text-blue-600" />,
-    label: "DROP A LINE",
-    title: "Mail Address",
-    lines: ["info@domain.com", "contact@company.com"],
+    label: "SEND AN EMAIL",
+    title: "Email Address",
+    lines: ["talktooyenike@gmail.com",],
   },
   {
     icon: <Clock className="w-6 h-6 text-blue-600" />,
     label: "OFFICE HOURS",
     title: "Opening Time",
-    lines: ["Mon - Fri : 9am - 5pm", "Sunday (Closed)"],
+    lines: ["Mon - Fri : 9am - 5pm",],
   },
 ];
 
@@ -42,12 +42,11 @@ export default function BlueContactPage() {
         </div>
         
         <h1 className="text-4xl md:text-5xl font-black text-slate-900 mb-6">
-          Contact <span className="text-blue-600">&</span> Join Together
+          Contact <span className="text-blue-600">Us</span>
         </h1>
         
         <p className="text-slate-500 max-w-2xl mx-auto mb-16 leading-relaxed">
-          Sint mosectetur fcaero delectus corupti consequuntur, monummy doloasda! 
-          Nam officiis, id natus non nihil provident justo.
+          Get in touch to ask questions, get support, or learn about your care options.
         </p>
 
         {/* Contact Cards */}
@@ -89,7 +88,7 @@ export default function BlueContactPage() {
                 </div>
                 <h4 className="font-bold text-xl mb-2">Chat With Live!</h4>
                 <p className="text-xs text-blue-100 leading-relaxed mb-6 opacity-90">
-                    Sint, cum pruda adpici quibusam facidus tam vedeis! Iste, aceu servie du non Placeat.
+                    Not sure where to begin? Our AI chatbot is available to talk things through at your own pace.
                 </p>
                 <button className="w-full bg-white text-blue-700 text-[11px] font-black py-3 rounded-xl uppercase tracking-widest hover:bg-blue-50 transition-colors shadow-lg">
                     Start Chatting
