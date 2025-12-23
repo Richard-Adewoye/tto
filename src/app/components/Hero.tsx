@@ -85,7 +85,7 @@ export default function Hero() {
         </div>
 
         {/* Hero Content */}
-        <div className="relative z-10 container mx-auto px-4 sm:px-6 pt-20 sm:pt-24 md:pt-28 lg:pt-32 flex flex-col md:flex-row justify-between items-start">
+        <div className="relative z-10 container mx-auto px-4 sm:px-6 pt-30 sm:pt-24 md:pt-28 lg:pt-32 flex flex-col md:flex-row justify-between items-start">
           <div className="max-w-2xl w-full md:w-auto">
             <AnimatePresence mode="wait">
               <motion.div
