@@ -27,8 +27,8 @@ const Navbar = () => {
           
           {/* Brand/Logo */}
           <div className="flex items-center gap-2 ml-4">
-             <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-sm shadow-lg shadow-blue-500/20">Dr.</div>
-             <span className="font-extrabold text-white tracking-tight hidden md:block">Oyenike Adeleke</span>
+             <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-sm shadow-lg shadow-blue-500/20">TTO</div>
+             <span className="font-extrabold text-white tracking-tight hidden md:block">Dr. Oyenike Adeleke</span>
           </div>
 
           {/* Middle: Nav Links */}
@@ -55,7 +55,7 @@ const Navbar = () => {
 
             {/* CTA Button */}
             <Link 
-              href="/get-started"
+              href="/#"
               className="bg-white text-[#050a1f] px-6 py-2.5 rounded-full text-[14px] font-bold hover:bg-blue-600 hover:text-white transition-all active:scale-95 whitespace-nowrap shadow-lg shadow-white/5"
             >
               Get Started

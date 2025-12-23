@@ -5,8 +5,8 @@ import { motion } from "framer-motion";
 import { Linkedin, Twitter, Facebook, Youtube, Mail, Phone, MapPin, ArrowRight } from "lucide-react";
 
 export default function Footer() {
-  const servicesLinks = ["Banking Risk", "Corporate Banking", "Insurance", "Tech Solutions"];
-  const companyLinks = ["About Us", "Careers", "Press", "Partners", "Blog"];
+  const servicesLinks = ["Privacy Policy", "Terms of Service", "Testimonials", "Community"];
+  const companyLinks = ["About", "Career", "Events", "Partners", "Blog"];
   const legalLinks = ["Privacy Policy", "Terms of Service", "Cookie Settings"];
 
   // Animation Variants
@@ -69,7 +69,7 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <h4 className="font-bold text-white text-lg mb-6 flex items-center gap-2">
               <span className="w-1.5 h-1.5 bg-blue-600 rounded-full" />
-              Services
+              Legal
             </h4>
             <ul className="space-y-4">
               {servicesLinks.map((link) => (

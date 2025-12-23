@@ -103,7 +103,7 @@ export default function DetailedAboutSection() {
               {/* Styled Image Frame */}
               <div className="relative h-[400px] lg:h-[500px] w-full rounded-3xl overflow-hidden border-[10px] border-slate-50 shadow-2xl">
                 <Image
-                  src="/professional-team.jpg" 
+                  src="/img-2.jpg" 
                   alt="Professional Excellence"
                   fill
                   className="object-cover grayscale hover:grayscale-0 transition-all duration-700"

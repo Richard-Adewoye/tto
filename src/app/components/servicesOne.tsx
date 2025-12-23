@@ -59,8 +59,8 @@ export default function AboutSection() {
             {/* Image Frame */}
             <div className="relative rounded-2xl overflow-hidden border-[8px] border-white/5 shadow-2xl aspect-[4/3] lg:aspect-auto lg:h-[500px]">
               <Image 
-                src="/professional-woman.jpg" 
-                alt="About Our Expertise"
+                src="/img-1.jpg" 
+                alt="Expertise"
                 fill
                 className="object-cover grayscale hover:grayscale-0 transition-all duration-700"
               />

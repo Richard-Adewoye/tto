@@ -63,7 +63,7 @@ export default function SecondSection() {
             {/* Image with thinner border */}
             <div className="relative rounded-2xl overflow-hidden border-[8px] border-white/5 shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1000"
+                src="/img-6.png"
                 alt="Our Team"
                 className="object-cover h-[400px] w-full grayscale hover:grayscale-0 transition-all duration-700"
               />
@@ -76,7 +76,7 @@ export default function SecondSection() {
               className="absolute -bottom-6 -right-6 w-24 h-24 bg-blue-500 rounded-full p-1 shadow-2xl z-20 flex items-center justify-center border-4 border-[#050a1f]"
             >
               <img
-                src="https://images.unsplash.com/photo-1521791136064-7986c2959213?q=80&w=100"
+                src="/img-4.jpg"
                 alt="Badge"
                 className="rounded-full w-full h-full object-cover"
               />

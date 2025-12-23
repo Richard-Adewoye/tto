@@ -75,7 +75,7 @@ export default function BlueContactPage() {
           <div className="lg:w-1/2 relative">
             <div className="relative z-10 rounded-[3rem] overflow-hidden">
                 <img 
-                    src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=600" 
+                    src="/img-7.png" 
                     alt="Customer Support" 
                     className="w-full h-auto object-cover"
                 />
